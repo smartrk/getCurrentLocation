@@ -31,15 +31,16 @@
 ## Gradle dependency
 
 ```sh
-
 allprojects {
 		repositories {
 			maven { url 'https://jitpack.io' }
 		}
 	}
+```
 
-
+```sh
 dependencies { 
         implementation 'com.github.smartrk:getCurrentLocation:1.0.0' 
 }
 ```
+
